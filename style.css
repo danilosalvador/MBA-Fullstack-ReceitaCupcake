@@ -1,5 +1,11 @@
+:root {
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
+}
+
 body {
-    background-image: url(assests/bg.png);
+    background-image: url(assests/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -13,6 +19,27 @@ body {
     margin: 48px auto;
 }
 
+#details {
+    padding-inline: 0;
+}
+
+#details li {
+    list-style-type: none;
+}
+
 img {
     border-radius: 16px;
+}
+
+h1, h2 {
+    color: #291B1A;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
 }
